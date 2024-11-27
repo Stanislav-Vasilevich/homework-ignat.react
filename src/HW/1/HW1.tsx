@@ -1,4 +1,4 @@
-import {UserList} from './UserList';
+import {UserList, UserType} from './UserList';
 
 export const HW1 = () => {
 
@@ -13,12 +13,6 @@ export const HW1 = () => {
   // ❗ Массив с данными не трогаем!
   // ❗ id на элементах не удаляем и не изменяем! Они нужны для автотестов.
   // Если нужно подставить элемент массива в id, то подставляем по аналогии с другими элементами!
-
-
-
-	export type UserType = {
-
-	}
 
 	const users: Array<UserType> = [
 		{id: 1, name: 'John', age: 25, address: {street: '123 Main St', city: 'New York'}},
